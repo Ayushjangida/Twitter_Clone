@@ -43,8 +43,6 @@ public class SocialMediaActivity extends AppCompatActivity implements AdapterVie
         listView.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
         listView.setOnItemClickListener(this);
 
-        ProgressDialog progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Loading Users...");
 
         getUsers();
     }
