@@ -94,6 +94,11 @@ public class SocialMediaActivity extends AppCompatActivity implements AdapterVie
             Intent intent = new Intent(SocialMediaActivity.this, LoginActivity.class);
             startActivity(intent);
         }
+
+        if (item.getItemId() == R.id.send_tweet_item)   {
+            Intent intent = new Intent(SocialMediaActivity.this, SendTweetActivity.class);
+            startActivity(intent);
+        }
         return super.onOptionsItemSelected(item);
 
     }

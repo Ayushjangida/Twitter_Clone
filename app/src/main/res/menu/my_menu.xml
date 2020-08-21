@@ -2,9 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item android:title="send_tweet_item"
+        android:id="@+id/send_tweet_item"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_tweet"
+        android:orderInCategory="101"
+       />
+
     <item
         android:id="@+id/logout_user"
         android:orderInCategory="100"
         android:title="Logout"
-        app:showAsAction="always" />
+        app:showAsAction="always"
+        />
+
 </menu>
